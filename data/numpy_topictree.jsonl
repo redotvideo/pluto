@@ -1,0 +1,100 @@
+{"path": ["Functionalities of numpy", "array manipulation", "reshaping arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "slicing and indexing"]}
+{"path": ["Functionalities of numpy", "array manipulation", "combining arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "splitting arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "transposing arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "iterating over arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "sorting arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "joining arrays"]}
+{"path": ["Functionalities of numpy", "array manipulation", "random number generation"]}
+{"path": ["Functionalities of numpy", "array manipulation", "element-wise operations"]}
+{"path": ["Functionalities of numpy", "matrix operations", "element-wise addition"]}
+{"path": ["Functionalities of numpy", "matrix operations", "matrix multiplication"]}
+{"path": ["Functionalities of numpy", "matrix operations", "transpose operations"]}
+{"path": ["Functionalities of numpy", "matrix operations", "matrix inversion"]}
+{"path": ["Functionalities of numpy", "matrix operations", "determinant calculation"]}
+{"path": ["Functionalities of numpy", "matrix operations", "eigenvalue and eigenvector computation"]}
+{"path": ["Functionalities of numpy", "matrix operations", "singular value decomposition"]}
+{"path": ["Functionalities of numpy", "matrix operations", "trace calculation"]}
+{"path": ["Functionalities of numpy", "matrix operations", "matrix factorization"]}
+{"path": ["Functionalities of numpy", "matrix operations", "linear transformation"]}
+{"path": ["Functionalities of numpy", "statistical functions", "mean"]}
+{"path": ["Functionalities of numpy", "statistical functions", "median"]}
+{"path": ["Functionalities of numpy", "statistical functions", "standard deviation"]}
+{"path": ["Functionalities of numpy", "statistical functions", "variance"]}
+{"path": ["Functionalities of numpy", "statistical functions", "percentiles"]}
+{"path": ["Functionalities of numpy", "statistical functions", "correlation coefficient"]}
+{"path": ["Functionalities of numpy", "statistical functions", "hypothesis testing"]}
+{"path": ["Functionalities of numpy", "statistical functions", "probability distributions"]}
+{"path": ["Functionalities of numpy", "statistical functions", "random sampling"]}
+{"path": ["Functionalities of numpy", "statistical functions", "linear regression"]}
+{"path": ["Functionalities of numpy", "random number generation", "normal distribution"]}
+{"path": ["Functionalities of numpy", "random number generation", "random sampling"]}
+{"path": ["Functionalities of numpy", "random number generation", "seeded random numbers"]}
+{"path": ["Functionalities of numpy", "random number generation", "Monte Carlo simulations"]}
+{"path": ["Functionalities of numpy", "random number generation", "random number generation in parallel computing"]}
+{"path": ["Functionalities of numpy", "random number generation", "random number generation for cryptography"]}
+{"path": ["Functionalities of numpy", "random number generation", "pseudo-random number generators"]}
+{"path": ["Functionalities of numpy", "random number generation", "random number generation in machine learning"]}
+{"path": ["Functionalities of numpy", "random number generation", "random number generation in games"]}
+{"path": ["Functionalities of numpy", "random number generation", "random number generation for simulations"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "matrix multiplication"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "vector operations"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "singular value decomposition"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "linear transformations"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "matrix inversion"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "eigenvalues and eigenvectors"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "orthogonalization"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "matrix factorization"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "least squares solutions"]}
+{"path": ["Functionalities of numpy", "linear algebra computations", "linear algebra libraries"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "array addition"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "element-wise multiplication"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "broadcasting"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "comparison operations"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "logical operations"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "trigonometric operations"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "exponential operations"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "element-wise division"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "absolute value"]}
+{"path": ["Functionalities of numpy", "element-wise operations", "element-wise power operations"]}
+{"path": ["Functionalities of numpy", "data analysis", "data visualization"]}
+{"path": ["Functionalities of numpy", "data analysis", "statistical analysis"]}
+{"path": ["Functionalities of numpy", "data analysis", "machine learning applications"]}
+{"path": ["Functionalities of numpy", "data analysis", "array manipulation"]}
+{"path": ["Functionalities of numpy", "data analysis", "data preprocessing"]}
+{"path": ["Functionalities of numpy", "data analysis", "time series analysis"]}
+{"path": ["Functionalities of numpy", "data analysis", "dimensionality reduction"]}
+{"path": ["Functionalities of numpy", "data analysis", "pattern recognition"]}
+{"path": ["Functionalities of numpy", "data analysis", "data mining"]}
+{"path": ["Functionalities of numpy", "data analysis", "exploratory data analysis"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Simpson's Rule"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Trapezoidal Rule"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Monte Carlo integration"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Quadrature methods"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Gaussian quadrature"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Adaptive quadrature"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Multidimensional integration"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Double integrals"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Triple integrals"]}
+{"path": ["Functionalities of numpy", "numerical integration", "Improper integrals"]}
+{"path": ["Functionalities of numpy", "signal processing", "digital signal processing"]}
+{"path": ["Functionalities of numpy", "signal processing", "filter design"]}
+{"path": ["Functionalities of numpy", "signal processing", "time-frequency analysis"]}
+{"path": ["Functionalities of numpy", "signal processing", "audio processing"]}
+{"path": ["Functionalities of numpy", "signal processing", "image processing"]}
+{"path": ["Functionalities of numpy", "signal processing", "video processing"]}
+{"path": ["Functionalities of numpy", "signal processing", "spectral analysis"]}
+{"path": ["Functionalities of numpy", "signal processing", "signal denoising"]}
+{"path": ["Functionalities of numpy", "signal processing", "signal compression"]}
+{"path": ["Functionalities of numpy", "signal processing", "sensor data processing"]}
+{"path": ["Functionalities of numpy", "time series analysis", "moving averages"]}
+{"path": ["Functionalities of numpy", "time series analysis", "seasonal decomposition"]}
+{"path": ["Functionalities of numpy", "time series analysis", "trend analysis"]}
+{"path": ["Functionalities of numpy", "time series analysis", "forecasting"]}
+{"path": ["Functionalities of numpy", "time series analysis", "autocorrelation"]}
+{"path": ["Functionalities of numpy", "time series analysis", "time series models"]}
+{"path": ["Functionalities of numpy", "time series analysis", "time series visualization"]}
+{"path": ["Functionalities of numpy", "time series analysis", "time series decomposition"]}
+{"path": ["Functionalities of numpy", "time series analysis", "time series forecasting methods"]}
+{"path": ["Functionalities of numpy", "time series analysis", "time series outlier detection"]}
