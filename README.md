@@ -86,7 +86,7 @@ dataset.save("output_with_topictree.jsonl")
 In the example above, we did the following things:
 
 **Generate Topic Tree:**
-We first used GPT-3.5 to generate a "topic tree" with the root "Functionalities of numpy". A topic tree is simply a tree in which each child of a node needs to be a subtopic of its parent node and allows us to generate a list of aspects that should be covered in our training dataset. This is what paths from root to leaves within a topic tree look like (you can also find a full file [here]()):
+We first used GPT-3.5 to generate a "topic tree" with the root "Functionalities of numpy". A topic tree is simply a tree in which each child of a node needs to be a subtopic of its parent node and allows us to generate a list of aspects that should be covered in our training dataset. This is what paths from root to leaves within a topic tree look like (you can also find a full file [here](https://github.com/havenhq/pluto/blob/main/data/numpy_topictree.jsonl)):
 
 ```
 Functionalities of numpy -> array manipulation -> slicing and indexing
