@@ -1,9 +1,11 @@
 import litellm
 import json
 from dataclasses import dataclass
+import uuid
 from typing import List, Dict
 from .utils import extract_list
 from .prompts import TREE_GENERATION_PROMPT
+from .posthog.events import capture_event
 
 @dataclass
 class TopicTreeArguments:
@@ -18,7 +20,10 @@ class TopicTree:
         self.tree_paths = []
 
     def build_tree(self, model_name: str = "gpt-3.5-turbo-1106"):
+        build_id = uuid.uuid4()
+        capture_event("build-tree", dict(model=model_name, tree_degree=self.args.tree_degree, tree_depth=self.args.tree_depth, build_id=build_id))
         self.tree_paths = self.build_subtree(model_name, [self.args.root_prompt], self.args.model_system_prompt, self.args.tree_degree, self.args.tree_depth)
+        capture_event("build-tree-finished", dict(build_id=build_id))
 
     def build_subtree(self, model_name: str, node_path: List[str], system_prompt: str, tree_degree: int, subtree_depth: int):
         print(f"building subtree for path: {' -> '.join(node_path)}")
