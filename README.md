@@ -62,6 +62,8 @@ engine = DataEngine(
     args=EngineArguments(
         instructions="Please specifically provide training examples with questions about numpy. A training sample should consist of just one question and a response, and not a chat with multiple messages.",
         system_prompt=system_prompt,
+        # example_data = Dataset.from_jsonl("example_data.jsonl") | comment out this argument to provide examples for the model generating training data
+
     )
 )
 
@@ -70,7 +72,6 @@ dataset = engine.create_data(
     num_steps=20,
     batch_size=5,
     topic_tree=tree
-    # example_data = Dataset.from_jsonl("example_data.jsonl") | comment out this argument to provide examples for the model generating training data
 )
 
 dataset.save("output_with_topictree.jsonl")
