@@ -19,7 +19,7 @@
 
 ## Welcome 💜
 
-Welcome! We're the team behind [Haven](https://haven.run/), a platform for fine-tuning LLMs. We realized that many of our users lack datasets for fine-tuning LLMs, which is why we built Pluto. Pluto is a library that makes it easy to generate fine-tuning datasets for LLMs. Here's what you can do with it:
+Welcome! We're the team behind [Haven](https://haven.run/), a platform for fine-tuning LLMs. We realized that many of our users lack datasets for fine-tuning LLMs, which is why we built Pluto, a library for synthetic data generation with LLMs. Here's what you can do with it:
 
 - Overcome repetitiveness and make your data highly diverse using topic trees
 - Run multiple sampling requests in parallel to speed up data generation
