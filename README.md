@@ -70,6 +70,7 @@ dataset = engine.create_data(
     num_steps=20,
     batch_size=5,
     topic_tree=tree
+    # example_data = Dataset.from_jsonl("example_data.jsonl") | comment out this argument to provide examples for the model generating training data
 )
 
 dataset.save("output_with_topictree.jsonl")
