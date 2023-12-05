@@ -92,6 +92,7 @@ Functionalities of numpy -> signal processing -> time-frequency analysis
 **Generate Data from Topic Tree:**
 After generating our topic tree, we feed it into the `create_data` function to ensure that our dataset touches upon a broad range of subjects and is not repetitive. Concretely, in this function, we iterate over all root-to-leaf paths in our topic tree and tell GPT-4 Turbo, which we use to generate our training data, to take the corresponding (sub)topic into account in its generated training sample. The parameter `batch_size=5` controls how many OpenAI requests we send simultaneously.
 
+<br>
 
 ## Fine-Tune LLMs with your generated Datasets
 
