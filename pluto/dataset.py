@@ -41,6 +41,8 @@ class Dataset:
         with open(save_path, "w") as f:
             for sample in self.samples:
                 f.write(remove_linebreaks_and_spaces(json.dumps(sample))+"\n")
+        
+        print(f"saved dataset to {save_path}. You can now upload and fine-tune models on multiple platforms:\n\nHaven: https://app.haven.run/\nOpenAI: https://platform.openai.com/finetune")
     
     def add_samples(self, samples: List[Dict]):
         for sample in samples:
