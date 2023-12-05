@@ -115,3 +115,17 @@ Datasets generated with pluto are saved in a `jsonl` format:
 ```
 
 You can directly use these dataset files to fine-tune models with Haven ([docs](https://docs.haven.run/finetuning-quickstart)) or OpenAI ([docs](https://platform.openai.com/docs/guides/fine-tuning)). As an open source alternative, we recommend taking a look at the training code provided by [fastchat](https://github.com/lm-sys/FastChat/blob/main/docs/training.md).
+
+
+
+<br>
+
+
+## Telemetry
+
+We use [Posthog](https://github.com/PostHog/posthog) to collect **anonymous** data about how people use Pluto. Concretely, we log whenever a data / topic tree creation job is started and ended. **We do not collect any contents of your datasets**.
+
+You can simply disable telemetry by setting the environment variable `ANONYMIZED_TELEMETRY` to `False`:
+```
+export ANONYMIZED_TELEMETRY=False
+```
