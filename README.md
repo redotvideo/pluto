@@ -62,7 +62,7 @@ engine = DataEngine(
     args=EngineArguments(
         instructions="Please specifically provide training examples with questions about numpy. A training sample should consist of just one question and a response, and not a chat with multiple messages.",
         system_prompt=system_prompt,
-        # example_data = Dataset.from_jsonl("example_data.jsonl") | comment out this argument to provide examples for the model generating training data
+        # example_data = Dataset.from_jsonl("example_data.jsonl") | OPTIONAL: comment out this argument to provide examples for the model generating training data
 
     )
 )
