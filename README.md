@@ -102,7 +102,7 @@ After generating our topic tree, we feed it into the `create_data` function to e
 
 
 
-## Fine-Tune LLMs with your generated Datasets
+## Fine-Tune LLMs with your generated Datasets ⚙️
 
 Datasets generated with pluto are saved in a `jsonl` format:
 
